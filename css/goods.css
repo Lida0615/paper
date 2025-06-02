@@ -1,0 +1,41 @@
+.goods_items {
+  display: flex;
+  gap: 30px;
+}
+
+.goods_item {
+  h3 {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #666;
+  }
+
+  span {
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #b5b5bd;
+    display: block;
+  }
+  p {
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859b;
+  }
+  a {
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #7875fe;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}
